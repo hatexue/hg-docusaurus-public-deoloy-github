@@ -60,3 +60,12 @@ sidebar_position: 1
 ### 上传或者修改完后，进行网站部署
 
 在根目录下输入终端命令：yarn deploy。
+
+如果yarn命令部署报错的话，可以用如下方法再次执行：
+```jsx title="网站部署"
+{
+  GIT_USER=hatexue USE_SSH=true yarn deploy 
+}
+```
+
+注意：第一次使用上面这个命令就好，后面直接使用yarn deploy命令就好！
